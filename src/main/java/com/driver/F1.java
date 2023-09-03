@@ -42,7 +42,7 @@ public class F1 extends Car {
             } else {
                 setGears(6);
             }
+            setCurrentSpeed(newSpeed);
         }
-        setCurrentSpeed(newSpeed);
     }
 }
